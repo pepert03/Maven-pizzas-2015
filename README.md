@@ -2,9 +2,7 @@ hacer un titulo
 =================
 
 añadir requirements.txt
-''' python
+'''
+python
 pip install -r requirements.txt
 '''
-
-
-
