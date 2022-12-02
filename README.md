@@ -8,7 +8,8 @@ pip install -r requirements.txt
 ```
 Todos los datos se encuentran en la carpeta `data`, pero si se desea, se puede descargar desde [Kaggle](https://www.kaggle.com/datasets/neethimohan/maven-pizza-challenge-dataset) y despues descomprimir en la carpeta `data`.
 
-## Análisis de datos
+## Ejecución
+**Nota**: El tiempo de ejecución de `etl.py` es de 3 minutos aprox., los datasets obtenidos ya están guardados en la carpeta `data`, no hace falta ejecutar `etl.py`para hacer la predicción.
 Para analizar los datos, se puede ejecutar el script `etl.py`, generando los archivos:
 * `data/dias_pizzas.csv`: Contiene la cantidad de pizzas vendidas por día.
 * `data/dias.csv`: Contiene la cantidad ingredientes vendidos por día.
