@@ -16,5 +16,7 @@ Para analizar los datos, se puede ejecutar el script `etl.py`, generando los arc
 
 ## Predicción
 Para predecir los ingredientes necesarios para una semana, se puede ejecutar el script `predict.py`, e introducir la semana a predecir. Ejemplo:
-```Semana (0-52): 1```
+```
+Semana (0-52): 1
+```
 Generando un diccionario con los ingredientes necesarios para la semana.
